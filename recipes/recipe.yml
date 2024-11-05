@@ -24,6 +24,7 @@ modules:
       - niri
       - xwayland-satellite
       - micro
+      - foot
       # - starship
     remove:
       # example: removing firefox (in favor of the flatpak)
