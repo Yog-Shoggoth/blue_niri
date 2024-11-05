@@ -2,7 +2,14 @@
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
-After setup, it is recommended you update this README to describe your custom image.
+Build of UBlue with Niri WM and Xwayland-Satellite pre-installed
+
+sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer \
+ghcr.io/jasonn3/build-container-installer:latest \
+IMAGE_REPO=ghcr.io/blue_niri \
+IMAGE_NAME=blue_niri \
+IMAGE_TAG=41 \
+VARIANT=Base-Main # should match the variant your image is based on
 
 ## Installation
 
