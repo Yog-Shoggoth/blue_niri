@@ -4,12 +4,7 @@ See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup i
 
 Build of UBlue with Niri WM and Xwayland-Satellite pre-installed
 
-sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer \
-ghcr.io/jasonn3/build-container-installer:latest \
-IMAGE_REPO=ghcr.io/yog-shoggoth/blue_niri:latest \
-IMAGE_NAME=blue_niri \
-IMAGE_TAG=41 \
-VARIANT=Base-Main # should match the variant your image is based on
+sudo podman run --rm --privileged --volume ./iso-output:/build-container-installer/build --security-opt label=disable --pull=newer ghcr.io/jasonn3/build-container-installer:latest IMAGE_REPO=ghcr.io/yog-shoggoth IMAGE_NAME=blue_niri IMAGE_TAG=latest VARIANT=base-main
 
 ## Installation
 
