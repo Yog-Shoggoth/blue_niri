@@ -29,7 +29,9 @@ modules:
       - foot
       # - starship
     remove:
-      # - swaylock
+      - swaylock
+      - nano 
+      - nano-default-editor
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
