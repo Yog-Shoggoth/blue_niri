@@ -29,7 +29,7 @@ modules:
       - foot
       # - starship
     remove:
-      - swaylock
+      # - swaylock
       - nano 
       - nano-default-editor
       # example: removing firefox (in favor of the flatpak)
