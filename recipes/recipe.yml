@@ -35,13 +35,13 @@ modules:
       - nano 
       - nano-default-editor
       - tmux
-      - yubikey-manager
+      # - yubikey-manager
       - vim
       - htop
       - nvtop
-      - pam-u2f
-      - pam_yubico
-      - pamu2fcfg
+      #- pam-u2f
+      #- pam_yubico
+      #- pamu2fcfg
       #- google-noto-sans-balinese-fonts
       #- google-noto-sans-cjk-fonts
       #- google-noto-sans-javanese-fonts
