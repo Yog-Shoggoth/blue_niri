@@ -23,13 +23,13 @@ modules:
     install:
       - niri
       - xwayland-satellite
-      - swaylock-effects
+      #- swaylock-effects
       - SwayOSD
       - micro
       - foot
       # - starship
     remove:
-      - swaylock
+      # - swaylock
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
