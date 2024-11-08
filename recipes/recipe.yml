@@ -34,9 +34,10 @@ modules:
       # - alacritty
       - nano 
       - nano-default-editor
+      - vim
+      - vim-default-editor
       # - tmux
       # - yubikey-manager
-      # - vim
       # - htop
       # - nvtop
       # - pam-u2f
