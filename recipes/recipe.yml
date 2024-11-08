@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
-name: blue_niri
+name: ublue_niri
 # description will be included in the image's metadata
-description: Build of Universal Blue with Niri WM
+description: Build of Universal Blue base image with Niri WM & Foot
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/base-main
@@ -18,11 +18,13 @@ modules:
   - type: rpm-ostree
     repos:
       # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/yalter/niri/repo/fedora-%OS_VERSION%/yalter-niri-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/errornointernet/packages/repo/fedora-%OS_VERSION%/errornointernet-packages-fedora-%OS_VERSION%.repo
+      - yalter-niri.repo
+      - errornointernet-packages.repo
     install:
       - niri
       - xwayland-satellite
+      - swaylock-effects
+      - SwayOSD
       - micro
       - foot
       # - starship
@@ -40,8 +42,8 @@ modules:
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
       install:
-        com.valvesoftware.Steam
-        # - org.mozilla.firefox
+        - com.valvesoftware.Steam
+        - org.mozilla.firefox
         # - org.gnome.Loupe
         # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
       # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
