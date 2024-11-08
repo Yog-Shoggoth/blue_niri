@@ -29,9 +29,18 @@ modules:
       - foot
       # - starship
     remove:
-      # - swaylock
+      - alacritty
       - nano 
       - nano-default-editor
+      - tmux
+      - yubikey-manager
+      - vim
+      - htop
+      - nvtop
+      - google-noto-sans-balinese-fonts
+      - google-noto-sans-cjk-fonts
+      - google-noto-sans-javanese-fonts
+      - google-noto-sans-sundanese-fonts
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
