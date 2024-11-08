@@ -39,6 +39,9 @@ modules:
       - vim
       - htop
       - nvtop
+      - pam-u2f
+      - pam_yubico
+      - pamu2fcfg
       #- google-noto-sans-balinese-fonts
       #- google-noto-sans-cjk-fonts
       #- google-noto-sans-javanese-fonts
