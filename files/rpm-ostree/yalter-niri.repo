@@ -8,4 +8,3 @@ gpgkey=https://download.copr.fedorainfracloud.org/results/yalter/niri/pubkey.gpg
 repo_gpgcheck=0
 enabled=1
 enabled_metadata=1
-includepkgs=niri,mako,fuzzel,gnome-desktop3,gnome-desktop4,xdg-desktop-portal-gnome
