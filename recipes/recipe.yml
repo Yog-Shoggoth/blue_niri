@@ -34,18 +34,18 @@ modules:
       # - alacritty
       - nano 
       - nano-default-editor
-      - tmux
+      # - tmux
       # - yubikey-manager
-      - vim
-      - htop
-      - nvtop
-      #- pam-u2f
-      #- pam_yubico
-      #- pamu2fcfg
-      #- google-noto-sans-balinese-fonts
-      #- google-noto-sans-cjk-fonts
-      #- google-noto-sans-javanese-fonts
-      #- google-noto-sans-sundanese-fonts
+      # - vim
+      # - htop
+      # - nvtop
+      # - pam-u2f
+      # - pam_yubico
+      # - pamu2fcfg
+      # - google-noto-sans-balinese-fonts
+      # - google-noto-sans-cjk-fonts
+      # - google-noto-sans-javanese-fonts
+      # - google-noto-sans-sundanese-fonts
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
       # - firefox
